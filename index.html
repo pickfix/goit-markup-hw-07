@@ -337,31 +337,31 @@
                         Web</span>Studio
                 </a>
                 <address>
-                    <ul class="contact__list">
-                        <li class="contact__items"><a href="https://bit.ly/3pXMvUd" target="_blank"
-                                rel="noopener noreferrer" class="contact__address">м. Київ, пр-т Лесі Українки, 26</a>
+                    <ul class="footer__list">
+                        <li class="footer__items"><a href="https://bit.ly/3pXMvUd" target="_blank"
+                                rel="noopener noreferrer" class="footer__address">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
-                        <li class="contact__items">
-                            <a href="mailto:info@example.com" class="contact__conection">info@example.com</a>
+                        <li class="footer__items">
+                            <a href="mailto:info@example.com" class="footer__conection">info@example.com</a>
                         </li>
-                        <li class="contact__items">
-                            <a href="tel:+380991111111" class="contact__conection">+38 099 111 11 11</a>
+                        <li class="footer__items">
+                            <a href="tel:+380991111111" class="footer__conection">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-social">
+            <div class="social">
                 <strong class="social__text">приєднуйтесь</strong>
                 <ul class="social__list">
 
-                    <li class="social__item"><a href="" class="footer-social__link"><svg class="icon__footer" width="20"
+                    <li class="social__item"><a href="" class="social__link"><svg class="social__icon" width="20"
                                 height="20">
                                 <use href="./imeges/svg_sprite/symbol-defs.svg#icon-instagram">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social__item"><a href="" class="footer-social__link"><svg class="icon__footer" width="20"
+                    <li class="social__item"><a href="" class="social__link"><svg class="social__icon" width="20"
                                 height="20">
                                 <use href="./imeges/svg_sprite/symbol-defs.svg#icon-twitter">
                                 </use>
@@ -369,14 +369,14 @@
                         </a>
                     </li>
 
-                    <li class="social__item"><a href="" class="footer-social__link"><svg class="icon__footer" width="20"
+                    <li class="social__item"><a href="" class="social__link"><svg class="social__icon" width="20"
                                 height="20">
                                 <use href="./imeges/svg_sprite/symbol-defs.svg#icon-facebook">
                                 </use>
                             </svg>
                         </a>
                     </li>
-                    <li class="social__item"><a href="" class="footer-social__link"><svg class="icon__footer" width="20"
+                    <li class="social__item"><a href="" class="social__link"><svg class="social__icon" width="20"
                                 height="20">
                                 <use href="./imeges/svg_sprite/symbol-defs.svg#icon-linkedin">
                                 </use>
@@ -387,13 +387,13 @@
             </div>
             <!-- Форма футера -->
             <form class="footer-form">
-                <span class="footer-form-block">
+                <span class="footer-form__block">
                     <label>
-                        <b class="footer-text-email">Підпишіться на розсилку</b>
-                        <input type="email" name="description_user" placeholder="E-mail" required class="input-email-footer">
+                        <b class="footer-form__email">Підпишіться на розсилку</b>
+                        <input type="email" name="description__user" placeholder="E-mail" required class="footer-form__input">
                     </label>
-                    <button type="submit" class="input-footer-desk">Підписатися<svg height="24" width="24"
-                            class="footer-btn-send">
+                    <button type="submit" class="footer-form__description">Підписатися<svg height="24" width="24"
+                            class="footer-form__send">
                             <use href="./imeges/svg_sprite/symbol-defs.svg#icon-send"></use>
                         </svg></button>
                 </span>
@@ -402,58 +402,58 @@
     </footer>
     <!-- Модальное окно -->
     <div class="backdrop is-hidden" data-modal>
-        <div class="modal"><button class="modal-btn-close" type="button" data-modal-close>
+        <div class="modal"><button class="modal__btn--close" type="button" data-modal-close>
                 <svg class="modal-button-icon-close" height="18" width="18">
                     <use href="./imeges/svg_sprite/symbol-defs.svg#icon-close"></use>
                 </svg>
             </button>
             <form class="modal-form">
-                <b class="form-title">Залиште свої дані, ми вам передзвонимо</b>
-                <label class="modal-form-field">
-                    <span class="label-form-desc">Ім'я</span>
-                    <span class="modal-wrapper">
-                        <input type="text" name="user_name" class="modal-form-input input-name" required
+                <b class="modal-form__title">Залиште свої дані, ми вам передзвонимо</b>
+                <label class="modal-form__field">
+                    <span class="modal-form__description">Ім'я</span>
+                    <span class="modal-form__wrapper">
+                        <input type="text" name="user_name" class="modal-form__input input-name" required
                             pattern="[a-zA-Zа-яА-Я]+" minlength="4">
-                        <svg class="modal-wrapper-icon" height="18" width="18">
+                        <svg class="modal-form__icon" height="18" width="18">
                             <use href="./imeges/svg_sprite/symbol-defs.svg#icon-person"></use>
                         </svg>
 
                     </span>
                 </label>
-                <label class="modal-form-field">
-                    <span class="label-form-desc">Телефон</span>
-                    <span class="modal-wrapper">
-                        <input type="tel" name="user_telephon" class="modal-form-input input-telephone" required
+                <label class="modal-form__field">
+                    <span class="modal-form__description">Телефон</span>
+                    <span class="modal-form__wrapper">
+                        <input type="tel" name="user_telephon" class="modal-form__input input-telephone" required
                             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
-                        <svg class="modal-wrapper-icon" height="18" width="18">
+                        <svg class="modal-form__icon" height="18" width="18">
                             <use href="./imeges/svg_sprite/symbol-defs.svg#icon-phone"></use>
                         </svg>
 
                     </span>
                 </label>
-                <label class="modal-form-field">
-                    <span class="label-form-desc">Пошта</span>
-                    <span class="modal-wrapper">
-                        <input type="email" name="user_email" class="modal-form-input input-telephone">
-                        <svg class="modal-wrapper-icon" height="18" width="18">
+                <label class="modal-form__field">
+                    <span class="modal-form__description">Пошта</span>
+                    <span class="modal-form__wrapper">
+                        <input type="email" name="user_email" class="modal-form__input input-telephone">
+                        <svg class="modal-form__icon" height="18" width="18">
                             <use href="./imeges/svg_sprite/symbol-defs.svg#icon-email"></use>
                         </svg>
                     </span>
 
                 </label>
-                <label class="modal-form-desk">
-                    <span class="label-form-desc">Коментар</span>
-                    <textarea name="user-masseg" placeholder="Введіть текст" class="area-form-desk"></textarea>
+                <label class="modal-form__comment">
+                    <span class="modal-form__description">Коментар</span>
+                    <textarea name="user-masseg" placeholder="Введіть текст" class="modal-form__area"></textarea>
                 </label>
-                <label class="modal-form-check">
-                    <input type="checkbox" name="user_policy" class="modal-check-hidden visually-hidden">
-                    <span class="thumb-check"><svg width="11" height="8" class="modal-svg-check">
-                            <use class="modal-icon-check" href="./imeges/svg_sprite/symbol-defs.svg#icon-check"></use>
+                <label class="modal-form__check">
+                    <input type="checkbox" name="user_policy" class="modal-form__hidden visually-hidden">
+                    <span class="thumb-check"><svg width="11" height="8" class="modal-form__svg">
+                            <use  href="./imeges/svg_sprite/symbol-defs.svg#icon-check"></use>
                         </svg></span>
-                    <span class="modal-desc-terms">Погоджуюся з розсилкою та приймаю</span>&nbsp;<a href=""
-                        class="modal-link-terms">Умови договору</a>
+                    <span class="modal-form__terms">Погоджуюся з розсилкою та приймаю</span>&nbsp;<a href=""
+                        class="modal-form__link">Умови договору</a>
                 </label>
-                <button type="submit" class="modal-form-submit">Відправити</button>
+                <button type="submit" class="modal-form__submit">Відправити</button>
             </form>
         </div>
     </div>
