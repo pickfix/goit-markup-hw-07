@@ -1,0 +1,8 @@
+.head{
+    border-bottom: 1px solid var(--border-line-color);
+    &-container{ 
+      display: flex;
+      align-items: center;
+
+    }
+  }

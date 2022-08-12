@@ -1,0 +1,23 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './layout/header';
+@import './components/logo';
+@import './layout/site-nav';
+@import './components/contact';
+@import './layout/hero';
+@import './layout/description';
+@import './layout/lessons';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+@import './components/button';
+@import './layout/gallery';
+@import './components/form-footer';
+
+@import './components/form-window';
+@import './components/modal-form';
